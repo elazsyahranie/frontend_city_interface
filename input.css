@@ -7,9 +7,10 @@
 }
 
 .background-city {
-  background-image: url("kevin-laminto-7PqRZK6rbaE-unsplash.jpg");
+  background-image: url("jase-bloor-oCZHIa1D4EU-unsplash.jpg");
   background-size: 100%;
   background-attachment: fixed;
-  /* background-repeat: no-repeat;
-  background-attachment: fixed; */
+  /* background-position: bottom; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
 }
