@@ -5,3 +5,11 @@
 @theme {
   --font-courier: "Courier", sans-serif;
 }
+
+.background-city {
+  background-image: url("kevin-laminto-7PqRZK6rbaE-unsplash.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
