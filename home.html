@@ -20,31 +20,23 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="h-screen background-city">
-      <div class="bg-blue-950/90 text-gray-300 flex flex-row px-10 py-6">
-        <div id="menu" class="flex flex-wrap gap-8"></div>
-        <!-- <div><a href="#" class="hover:font-bold">Home</a></div>
-          <div>Progress</div>
-          <div>Gallery</div>
-          <div>Settings</div> -->
-        <div class="flex-1 text-right">
-          <h2 class="font-bold">Welcome Back<span>, Player!</span></h2>
-        </div>
+    <nav
+      class="sticky top-0 bg-blue-950 text-gray-300 flex flex-row px-10 py-6 max-w-screen"
+    >
+      <div id="menu" class="flex flex-wrap gap-8"></div>
+      <div class="flex-1 text-right">
+        <h2 class="font-bold">Welcome Back<span>, Player!</span></h2>
       </div>
-      <footer class="text-white w-full text-sm text-center absolute bottom-3">
+    </nav>
+
+    <div class="h-screen max-w-screen background-city"></div>
+    <div id="progress-section" class="h-screen max-w-screen bg-blue-950/90">
+      <h1 class="font-courier text-7xl p-6 text-center font-bold text-gray-200">
+        Progress
+      </h1>
+    </div>
+    <!-- <footer class="text-white w-full text-sm text-center absolute bottom-3">
         <span class="bg-blue-950/60">
-          <!-- Photo by
-          <a
-            href="https://unsplash.com/@jasebloor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            class="underline"
-            >Jase Bloor</a
-          >
-          on
-          <a
-            href="https://unsplash.com/photos/japanese-lantern-over-city-bike-at-nighttime-oCZHIa1D4EU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            class="underline"
-            >Unsplash</a
-          > -->
           Photo by
           <a
             href="https://unsplash.com/@kxvn_lx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -58,12 +50,12 @@
             >Unsplash</a
           >
         </span>
-      </footer>
-    </div>
+      </footer> -->
+
     <script>
       const menuItems = [
         { text: "Home", href: "#" },
-        { text: "Progress", href: "#" },
+        { text: "Progress", href: "#progress-section" },
         { text: "Gallery", href: "#" },
         { text: "Settings", href: "#" },
       ];
