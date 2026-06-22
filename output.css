@@ -198,9 +198,6 @@
   .h-17 {
     height: calc(var(--spacing) * 17);
   }
-  .h-\[50\%\] {
-    height: 50%;
-  }
   .h-screen {
     height: 100vh;
   }
@@ -252,9 +249,6 @@
   .align-middle {
     vertical-align: middle;
   }
-  .font-courier {
-    font-family: var(--font-courier);
-  }
   .font-michroma {
     font-family: var(--font-michroma);
   }
@@ -285,14 +279,6 @@
   }
   .underline {
     text-decoration-line: underline;
-  }
-  .hover\:font-bold {
-    &:hover {
-      @media (hover: hover) {
-        --tw-font-weight: var(--font-weight-bold);
-        font-weight: var(--font-weight-bold);
-      }
-    }
   }
   .hover\:underline {
     &:hover {
