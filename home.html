@@ -22,7 +22,7 @@
   <body>
     <div class="h-screen max-w-screen background-city">
       <nav
-        class="relative top-0 bg-blue-950/90 z-10 text-gray-300 flex flex-row px-10 py-6 max-w-screen"
+        class="relative top-0 bg-blue-950/90 z-10 text-gray-300 flex flex-row px-10 h-17 max-w-screen items-center"
       >
         <div id="menu" class="flex flex-wrap gap-8"></div>
         <div class="flex-1 text-center font-michroma font-bold text-lg">
@@ -67,12 +67,12 @@
 
       for (const item of menuItems) {
         const div = document.createElement("div");
+        div.className = "inline-block align-middle";
 
         const link = document.createElement("a");
         link.href = item.href;
         link.textContent = item.text;
         // link.className = "hover:underline";
-        link.className = "font-courier hover:font-bold";
 
         div.appendChild(link);
         menu.appendChild(div);
