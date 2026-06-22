@@ -9,6 +9,7 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
   --color-blue-950: oklch(28.2% 0.091 267.935);
+  --color-gray-100: oklch(96.7% 0.003 264.542);
   --color-gray-200: oklch(92.8% 0.006 264.531);
   --color-gray-300: oklch(87.2% 0.01 258.338);
   --color-white: #fff;
@@ -312,6 +313,13 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .hover\:text-gray-100 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-gray-100);
+      }
+    }
   }
   .hover\:underline {
     &:hover {
