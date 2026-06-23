@@ -199,9 +199,6 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
-  .block {
-    display: block;
-  }
   .flex {
     display: flex;
   }
@@ -343,11 +340,6 @@
       }
     }
   }
-  .sm\:hidden {
-    @media (width >= 40rem) {
-      display: none;
-    }
-  }
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
@@ -361,7 +353,7 @@
 }
 .background-city {
   background-image: url("kevin-laminto-7PqRZK6rbaE-unsplash.jpg");
-  background-size: 100%;
+  background-size: cover;
 }
 @property --tw-font-weight {
   syntax: "*";
