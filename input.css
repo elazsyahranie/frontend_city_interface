@@ -9,6 +9,10 @@
 
 @import "tailwindcss";
 
+body {
+  font-family: "Courier Prime", sans-serif;
+}
+
 .background-city {
   background-image: url("kevin-laminto-7PqRZK6rbaE-unsplash.jpg");
   background-size: cover;
