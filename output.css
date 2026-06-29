@@ -4,6 +4,8 @@
 :root, :host {
   --font-courier: "Courier Prime", sans-serif;
   --font-michroma: "Michroma", sans-serif;
+  --color-light-blue: #a0f2b6;
+  --color-neutral-gray: #a0f2b6;
   --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
@@ -11,6 +13,8 @@
   --color-red-900: oklch(39.6% 0.141 25.723);
   --color-green-900: oklch(39.3% 0.095 152.535);
   --color-green-950: oklch(26.6% 0.065 152.934);
+  --color-sky-400: oklch(74.6% 0.16 232.661);
+  --color-sky-900: oklch(39.1% 0.09 240.876);
   --color-blue-950: oklch(28.2% 0.091 267.935);
   --color-gray-100: oklch(96.7% 0.003 264.542);
   --color-gray-200: oklch(92.8% 0.006 264.531);
@@ -320,6 +324,30 @@
     background-color: color-mix(in srgb, oklch(26.6% 0.065 152.934) 95%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-green-950) 95%, transparent);
+    }
+  }
+  .bg-light-blue\/40 {
+    background-color: color-mix(in srgb, #a0f2b6 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-light-blue) 40%, transparent);
+    }
+  }
+  .bg-neutral-gray\/40 {
+    background-color: color-mix(in srgb, #a0f2b6 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-neutral-gray) 40%, transparent);
+    }
+  }
+  .bg-neutral-gray\/70 {
+    background-color: color-mix(in srgb, #a0f2b6 70%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-neutral-gray) 70%, transparent);
+    }
+  }
+  .bg-neutral-gray\/90 {
+    background-color: color-mix(in srgb, #a0f2b6 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-neutral-gray) 90%, transparent);
     }
   }
   .bg-red-900\/70 {
