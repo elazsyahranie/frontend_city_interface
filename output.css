@@ -10,7 +10,6 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
   --color-red-900: oklch(39.6% 0.141 25.723);
-  --color-red-950: oklch(25.8% 0.092 26.042);
   --color-green-900: oklch(39.3% 0.095 152.535);
   --color-green-950: oklch(26.6% 0.065 152.934);
   --color-blue-900: oklch(37.9% 0.146 265.522);
