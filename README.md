@@ -1,6 +1,5 @@
 # City Interface
-
-🚧 **This project is currently under development**. I made this project only with HTML, CSS and JavaScript since I was experimenting with Tailwind. I'm planning to migrate this project later to React. 
+🚧 **This project is currently under development**. I made this project only with HTML, CSS and JavaScript since I was experimenting with Tailwind. I plan to either migrate this project to React or to [Codepen](https://codepen.io/).
 
 To run the project 
 - Run `npm run dev` to execute the `output.css` file
