@@ -1,4 +1,5 @@
 # City Interface
+![Home screenshot](screenshots/home.jpg)
 🚧 **This project is currently under development**. I made this project only with HTML, CSS and JavaScript since I was experimenting with Tailwind. I plan to either migrate this project to React or to [Codepen](https://codepen.io/).
 
 To run the project 
